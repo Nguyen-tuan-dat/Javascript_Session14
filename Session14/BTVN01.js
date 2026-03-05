@@ -11,8 +11,9 @@ products.forEach(product => {
         <li>
             <div class="product">
                 <h3>${product.name}</h3>
-                <p>Giá: ${product.price.toLocaleString()} VND</p>
+                <p>Giá: ${product.price.toLocaleString()} </p>
             </div>
         </li>
     `;
+
 });
